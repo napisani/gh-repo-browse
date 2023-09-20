@@ -40,8 +40,9 @@ cd gh-repo-browse
 docker build -t gh-repo-browse .
 
 # start the resulting container and map 8080 to a local port
-
 docker run -p 8080:8080 gh-repo-browse
+
+# open a web browser to http://localhost:8080
 
 ```
 
